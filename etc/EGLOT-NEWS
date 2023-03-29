@@ -18,6 +18,15 @@ to look up issue github#1234, go to
 https://github.com/joaotavora/eglot/issues/1234.
 
 
+* Changes in upcoming Eglot 1.14
+
+** Completion is faster and more responsive
+A safe and accurate completion-caching mechanism based on the language
+server's "isIncomplete" flag setting is used by Eglot to skip doing
+potentially slow queries for more completions as the user types more
+characters into a compliant completion UI such as Company.
+
+
 * Changes in Eglot 1.13 (15/03/2023)
 
 ** ELPA installations on Emacs 26.3 are supported again.
